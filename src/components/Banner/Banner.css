@@ -1,0 +1,70 @@
+.banner{
+    height: 100vh;
+    padding-top: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-image: url('https://occ-0-5690-3662.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABfuOqWW_ur8XbHXRQZ5w6t4MY0dOKw7v77WrOt1TfBDXbn1EkQbNdtMczyMovWJmZQ9E7i0gy3ujfXzVi6SqvtC23yaDxUPgG69d.webp?r=153'); */
+    color: #fff;
+    overflow-y: hidden;
+    padding: 0 60px;
+    display: flex;
+    align-items: center;
+}
+
+.content{
+    font-family: 'Rubik', sans-serif;
+    width: 520px;
+}
+.content h1{
+    color: #fff;
+    font-size: 1.6vw;
+    margin: 1vw 0;
+    font-weight: 500;
+    text-shadow: 2px 2px 4px rgba(0,0,0,.45);
+    transition: color 1s cubic-bezier(.165,.84,.44,1);
+}
+.content p{
+    color: #fff;
+    font-size: 1.2vw;
+    font-weight: 300;
+    line-height: normal;
+    margin-top: 0.1vw;
+    text-shadow: 2px 2px 4px rgba(0,0,0,.45);
+}
+.banner_button{
+    display: flex;
+    margin-top: 20px;
+}
+.banner_button button{
+    margin-right: 10px;
+    /* background-color: #fff; */
+    border: none;
+    outline: none;
+    border-radius: 4px;
+}
+.play{
+    font-family: 'Roboto',sans-serif;
+    display: flex;
+    align-items: center;
+    line-height:40px;
+    justify-content: center;
+    padding-right: 10px;
+    font-size: 20px;
+    font-weight:600;
+    padding: 1px 25px 1px 17px;
+}
+.moreInfo{
+    font-family: 'Roboto',sans-serif;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 0px 25px;
+    font-size: 20px;
+    font-weight:600;
+    background-color: #585858;
+}
+.moreInfo svg{
+    margin-right: 10px;
+    
+}

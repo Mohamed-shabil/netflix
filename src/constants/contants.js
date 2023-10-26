@@ -1,0 +1,5 @@
+export const API_Key='21170f0c74aa0b19be9b2c09dc607745'
+export const baseUrl ='https://api.themoviedb.org/3'
+// export const imageUrl='https://image.tmdb.org/t/p/w300_and_h450_bestv2'
+export const imageUrl='https://image.tmdb.org/t/p/original'
+export const BannerUrl='https://image.tmdb.org/t/p/original'
